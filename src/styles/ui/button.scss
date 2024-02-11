@@ -1,0 +1,14 @@
+.button {
+  display: flex;
+  background: $gray-600;
+  padding: 16px;
+  border-radius: 12px;
+  color: $gray-200;
+  text-transform: uppercase;
+  @include heading-xs;
+
+  &:hover {
+    background: $gray-700;
+    color: $white;
+  }
+}

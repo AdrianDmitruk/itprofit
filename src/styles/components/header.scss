@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  background: $gray-800;
+  padding: 16px;
+  border-radius: 12px;
+
+  &Logo {
+    @include heading-lg;
+    text-transform: uppercase;
+    color: $gray-400;
+
+    &:hover {
+      color: $white;
+    }
+  }
+}
