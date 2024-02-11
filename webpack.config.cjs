@@ -98,7 +98,7 @@ module.exports = {
     port: 3000,
     hot: isDevelopment,
   },
-  devtool: isDevelopment ? 'source-map' : '',
+  devtool: 'source-map',
   plugins: plugins(),
   module: {
     rules: [
